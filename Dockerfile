@@ -5,7 +5,7 @@ FROM openjdk:22-jdk-slim
 WORKDIR /app
 
 # Copiez le fichier JAR dans le conteneur
-COPY target/mon-application.jar .
+COPY mon-application.jar .
 
 # Exposez le port sur lequel l'application écoute
 EXPOSE 8080
